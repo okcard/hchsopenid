@@ -16,7 +16,7 @@ document.getElementById('queryForm').addEventListener('submit', function(e) {
                     if (student) {
                         document.getElementById('result').innerHTML = `
                             <p>OpenID: ${student[2]}</p>
-                            <p>密碼: ${student[3]}</p>
+                            <p>初始化密碼: ${student[3]}</p>
                         `;
                     } else {
                         document.getElementById('result').innerHTML = '查無資料';
